@@ -29,7 +29,8 @@ textarea {
   resize: vertical;
 }
 
-.input_text_com > input:focus {
+.input_text_com > input:focus,
+textarea:focus {
   background-color: var(--golden-shade);
   color: var(--baby-pink);
   border: 1px solid var(--golden-shade);

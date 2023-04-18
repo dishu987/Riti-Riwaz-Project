@@ -49,6 +49,11 @@ const Signup = () => {
           value={"Location of Wedding"}
           type={"textarea"}
         />
+        <Input_Text
+          name={"refferal_code"}
+          value={"Refferal Code(Optional)"}
+          type={"number"}
+        />
         <small
           style={{
             display: "flex",
