@@ -1,0 +1,19 @@
+.button_com {
+  text-decoration: none;
+  color: var(--light-shade);
+  background-color: var(--baby-pink);
+  padding: 20px 30px;
+  margin: 10px 0px;
+  margin-right: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  font-weight: 600;
+}
+
+.button_com:hover {
+  background-color: var(--light-shade);
+  color: var(--baby-pink);
+  transform: scale(1.01);
+}

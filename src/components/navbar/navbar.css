@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  background-color: var(--dark-shade);
+  padding: 5px 20px;
+}
+
+nav > h1 {
+  color: var(--light-shade);
+  font-weight: 600;
+}
